@@ -358,7 +358,7 @@ f'''⌬ <b><i>Owner or Sudos Commands!</i></b>
 ┖ /{BotCommands.GDCleanCommand[0]} or /{BotCommands.GDCleanCommand[1]} [drive_id]: Delete all files from specific folder in Google Drive.
 
 <b>Cancel Tasks:</b>
-┖ /{BotCommands.CancelAllCommand[0]}: Cancel all Tasks & /{BotCommands.CancelAllCommand[1]} for Multiple Bots.
+┖ /{BotCommands.CancelAllCommand[0]}: Cancel all Tasks.
 
 <b>Maintainance:</b>
 ┠ /{BotCommands.RestartCommand[0]} or /{BotCommands.RestartCommand[1]}: Restart and Update the Bot (Only Owner & Sudo).
