@@ -21,7 +21,7 @@ class _BotCommands:
         self.CountCommand = f'count{CMD_SUFFIX}'
         self.DeleteCommand = f'del{CMD_SUFFIX}'
         self.CancelMirror = f'can{CMD_SUFFIX}'
-        self.CancelAllCommand = [f'canall{CMD_SUFFIX}'
+        self.CancelAllCommand = [f'canall{CMD_SUFFIX}']
         self.ListCommand = f'list{CMD_SUFFIX}'
         self.SearchCommand = f'search{CMD_SUFFIX}'
         self.StatusCommand = [f's{CMD_SUFFIX}', f'sall{CMD_SUFFIX}']
