@@ -11,11 +11,11 @@ class _BotCommands:
         self.QbLeechCommand = [f'ql{CMD_SUFFIX}', f'qbleech{CMD_SUFFIX}']
         self.YtdlLeechCommand = [f'ytl{CMD_SUFFIX}', f'ytdlleech{CMD_SUFFIX}']
         if config_dict['SHOW_EXTRA_CMDS']:
-            self.MirrorCommand.extend([f'uzm{CMD_SUFFIX}', f'unzipmirror{CMD_SUFFIX}', f'zipmirror{CMD_SUFFIX}', f'zm{CMD_SUFFIX}'])
-            self.QbMirrorCommand.extend([f'quzm{CMD_SUFFIX}', f'qbunzipmirror{CMD_SUFFIX}', f'qbzipmirror{CMD_SUFFIX}', f'qzm{CMD_SUFFIX}'])
+            self.MirrorCommand.extend([f'uzm{CMD_SUFFIX}', f'unzipmirror{CMD_SUFFIX}', f'zm{CMD_SUFFIX}', f'zipmirror{CMD_SUFFIX}'])
+            self.QbMirrorCommand.extend([f'quzm{CMD_SUFFIX}', f'qbunzipmirror{CMD_SUFFIX}', f'qzm{CMD_SUFFIX}', f'qbzipmirror{CMD_SUFFIX}'])
             self.YtdlCommand.extend([f'ytz{CMD_SUFFIX}', f'ytdlzip{CMD_SUFFIX}'])
-            self.LeechCommand.extend([f'uzl{CMD_SUFFIX}', f'unzipleech{CMD_SUFFIX}', f'zipleech{CMD_SUFFIX}', f'zl{CMD_SUFFIX}'])
-            self.QbLeechCommand.extend([f'quzl{CMD_SUFFIX}', f'qbunzipleech{CMD_SUFFIX}', f'qbzipleech{CMD_SUFFIX}', f'qzl{CMD_SUFFIX}'])
+            self.LeechCommand.extend([f'uzl{CMD_SUFFIX}', f'unzipleech{CMD_SUFFIX}', f'zl{CMD_SUFFIX}', f'zipleech{CMD_SUFFIX}'])
+            self.QbLeechCommand.extend([f'quzl{CMD_SUFFIX}', f'qbunzipleech{CMD_SUFFIX}', f'qzl{CMD_SUFFIX}', f'qbzipleech{CMD_SUFFIX}'])
             self.YtdlLeechCommand.extend([f'ytzl{CMD_SUFFIX}', f'ytdlzipleech{CMD_SUFFIX}'])
         self.CloneCommand = [f'c{CMD_SUFFIX}', f'clone{CMD_SUFFIX}']
         self.CountCommand = f'count{CMD_SUFFIX}'
