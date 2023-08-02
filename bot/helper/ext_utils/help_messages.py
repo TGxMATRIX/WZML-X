@@ -362,7 +362,6 @@ f'''⌬ <b><i>Owner or Sudos Commands!</i></b>
 
 <b>Maintainance:</b>
 ┠ /{BotCommands.RestartCommand[0]} or /{BotCommands.RestartCommand[1]}: Restart and Update the Bot (Only Owner & Sudo).
-┠ /{BotCommands.RestartCommand[2]}: Restart and Update all Bots (Only Owner & Sudo).
 ┖ /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports (Only Owner & Sudo).
 
 <b>Executors:</b>
